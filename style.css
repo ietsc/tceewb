@@ -183,9 +183,14 @@ nav .fa{
 	width: 80%;
 	margin: auto;
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 60px;
 }
-
+.about h1{
+	padding-top:20px;
+}
+.about p{
+	padding-top:20px;
+}
 .acmt{
 	width: 80%;
 	margin: auto;
@@ -310,6 +315,9 @@ h3{
 	}
 	.rw{
 		flex-direction:column;
+	}
+	.alumini-header h1{
+		font-size:22px;
 	}
 
 }
@@ -496,3 +504,125 @@ th,td{
 
 /*--------alumini page--------*/
 
+/*-------------newsletter--------------*/
+.newsletter .n1{
+	text-align:center;
+	padding-top:30px;
+	padding-left:70px;
+	padding-right:70px;
+}
+.newsletter .n1 p{
+	font-size:17px;
+}
+.newsletter h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size:26px;
+}
+.ns1 img{
+	border-radius:8px;
+	height:300px;
+	width:650px;
+}
+.newsletter .about-container{
+	padding-top:40px;
+}
+.newsletter .about-container h2{
+	padding-left:10px;
+	font-size:22px;
+}
+.newsletter .col1{
+	margin-top:30px;
+	margin-left:20px;
+}
+.ns2 img{
+	width:650px;
+	height:300px;
+	padding-left:30px;
+	border-radius:8px;
+}
+.newsletter .ns2 .col1{
+	margin-right:10px;
+	margin-left:10px;
+	padding-left:20px;
+}
+
+.ns5 img{
+	width:400px;
+	border-radius:8px;
+}
+.ns6 img{
+	width:360px;
+	border-radius:8px;
+}
+.newsletter .col{
+	margin-left:20px;
+}
+.newsletter .row{
+	margin-left:10px;
+	margin-right:10px;
+}
+.newsletter .news .about-container{
+	margin-left:150px;
+}
+@media screen and (max-width:768px){
+		.newsletter .n1{
+			padding-top:25px;
+			padding-left:30px;
+			padding-right:30px;
+		}
+		.newsletter .ns1 img{
+			height:170px;
+			width:320px;
+		}
+		.newsletter .ns2 img{
+			height:170px;
+			width:320px;
+			padding-left:5px;
+		}
+		.ns5 img{
+			width:230px;
+			height:200px;
+		}
+		.ns6 img{
+			width:230px;
+			height:200px;
+		}
+		.newsletter .news .about-container{
+			margin-left:15px;
+		}
+		.newsletter .n1 p{
+			font-size:16px;
+		}
+		.newsletter h1{
+			padding-top: 30px;
+			font-size:19px;
+		}
+		.newsletter .about-container h2{
+			padding-left:10px;
+			font-size:15px;
+		}
+		.newsletter .about h2{
+			font-size:18px;
+		}
+		.newsletter .row h3{
+			font-size:17px;
+		}
+		.newsletter .about-container{
+			padding-top:25px;
+		}
+		.newsletter .col1{
+			margin-top:10px;
+			margin-left:5px;
+		}
+		.newsletter .about{
+			margin-left:30px;
+		}
+		.newsletter .ns2 .col1{
+			margin-right:10px;
+			margin-left:10px;
+			padding-left:15px;
+			margin-top:15px;
+		}
+}	
+/*-------------newsletter--------------*/
